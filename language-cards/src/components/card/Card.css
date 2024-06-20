@@ -1,0 +1,27 @@
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .image-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  .image-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .image-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
