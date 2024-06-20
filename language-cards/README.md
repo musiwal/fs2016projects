@@ -206,5 +206,12 @@ CSS Styling: Styles are added to make the gallery look presentable.
 App Component: The App.js file imports and uses the ImageGallery component to display the images.
 
 
+================================================================== 
+To implement the image gallery where each image flips between showing the image and its description when clicked, and the image zooms in when hovered over, you will need to combine CSS for the animations and React for handling the state
+
+Step 1: Create the ImageGallery Component
+First, let's create the ImageGallery component that uses the FlippableCard component for each image.
+
+
 
 
