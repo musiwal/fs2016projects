@@ -12,6 +12,7 @@ const FlippableCard = ({ image, name, options }) => {
     <div className={`flip-card ${isFlipped ? 'flipped' : ''}`} onClick={handleFlip}>
       <div className="flip-card-inner">
         <div className="flip-card-front">
+            
           <img src={image} alt={name} />
         </div>
         <div className="flip-card-back">
