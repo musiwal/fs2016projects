@@ -1,0 +1,15 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: row;
+    max-width: 60000px; /* Optional: Set a max-width to limit card container width */
+  }
+  
+  @media (min-width: 768px) {
+    .card-container {
+      justify-content: space-between; /* Adjust spacing between cards for larger screens */
+    }
+  }
+  
